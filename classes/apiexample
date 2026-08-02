@@ -1,0 +1,12 @@
+function rahul(msg) {
+    console.log("Rahul:", msg);
+}
+
+function priya(msg) {
+    console.log("Priya:", msg);
+}
+
+const students = [rahul, priya];
+
+// Teacher announces
+students.forEach(student => student("Tomorrow is a holiday"));
